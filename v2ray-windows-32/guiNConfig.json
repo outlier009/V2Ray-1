@@ -1,0 +1,75 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 1,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "www.falconperegrine.tk",
+      "port": 443,
+      "id": "6de3c60b-1a21-4e56-8e17-4924689f898b",
+      "alterId": 233,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "falconperegrine.tk",
+      "headerType": "none",
+      "requestHost": "www.falconperegrine.tk",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "www.kingcheetah.tk",
+      "port": 443,
+      "id": "29924546-0b74-4f0e-b58d-8265fbce17ca",
+      "alterId": 233,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "kingcheetah.tk",
+      "headerType": "none",
+      "requestHost": "www.kingcheetah.tk",
+      "path": "/233blog",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysAgentEnabled": true,
+  "listenerType": 1,
+  "urlGFWList": null,
+  "allowLANConn": false,
+  "remoteDNS": null,
+  "subItem": null,
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  }
+}

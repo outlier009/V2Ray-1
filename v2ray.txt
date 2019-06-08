@@ -1,0 +1,57 @@
+date
+    check date time
+
+bash <(curl -L -s https://install.direct/go.sh)
+    install v2ray
+
+bash <(curl -s -L https://git.io/v2ray.sh)
+    这是233boy的一键脚本，可以用于卸载
+
+
+nano /etc/v2ray/config.json
+    configure: https://intmainreturn0.com/v2ray-config-gen/#
+
+systemctl restart v2ray
+
+service v2ray status
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+https://github.com/v2ray/v2ray-core/releases
+下载核心包（找到自己对应系统位数的zip文件）
+
+
+https://github.com/2dust/v2rayN/releases
+v2rayN 下载GUI界面（文件为v2rayN.zip）
+
+然后把核心包解压，把v2rayN.zip里面的图形界面exe程序v2rayN.exe（图形界面程序）和zh-Hans（汉化包）
+剪切到核心包的文件夹里
+
+在核心包的文件夹里打开v2rayN.exe
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+reference
+https://www.youtube.com/watch?v=T83EGOswE9M
+
+
+
+
+Knowledge Base:
+Content distribution network，縮寫：CDN
+
+Secure Sockets Layer, 縮寫：SSL  --- https
+
+Transport Layer Security，縮寫：TLS
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+v2ray github:
+https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC
+https://github.com/233boy/v2ray/wiki/V2RayN%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B
+
+www.speedcheapvpn.com

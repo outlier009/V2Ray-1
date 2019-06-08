@@ -1,0 +1,6 @@
+P-tech教程:https://www.youtube.com/watch?v=-GH7DOlqe-M   https://233v2.com/post/5/
+
+要求Debian9, CentOS7:
+
+
+bash <(curl -s -L https://233v2.com/v2ray.sh)
