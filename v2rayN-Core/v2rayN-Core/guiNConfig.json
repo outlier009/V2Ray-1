@@ -1,32 +1,50 @@
 {
   "inbound": [
     {
-      "localPort": 10808,
+      "localPort": 1080,
       "protocol": "socks",
       "udpEnabled": true,
       "sniffingEnabled": true
     }
   ],
-  "logEnabled": false,
+  "logEnabled": true,
   "loglevel": "warning",
-  "index": 0,
+  "index": 1,
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.168.203.39",
-      "port": 1880,
-      "id": "2c06df44-6a25-d8e5-6080-a648dbdc3578",
-      "alterId": 108,
+      "address": "www.kingcheetah.tk",
+      "port": 443,
+      "id": "29924546-0b74-4f0e-b58d-8265fbce17ca",
+      "alterId": 233,
       "security": "auto",
-      "network": "tcp",
-      "remarks": "first",
+      "network": "ws",
+      "remarks": "233v2.com_www.kingcheetah.tk",
       "headerType": "none",
-      "requestHost": "",
-      "path": "",
-      "streamSecurity": "",
+      "requestHost": "www.kingcheetah.tk",
+      "path": "/233blog",
+      "streamSecurity": "tls",
       "allowInsecure": "",
       "configType": 1,
-      "testResult": "228ms",
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "www.falconperegrine.tk",
+      "port": 443,
+      "id": "6de3c60b-1a21-4e56-8e17-4924689f898b",
+      "alterId": 233,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "233v2.com_www.falconperegrine.tk",
+      "headerType": "none",
+      "requestHost": "www.falconperegrine.tk",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
       "subid": ""
     }
   ],
@@ -45,11 +63,11 @@
     "readBufferSize": 2,
     "writeBufferSize": 2
   },
-  "sysAgentEnabled": false,
-  "listenerType": 0,
-  "urlGFWList": null,
+  "sysAgentEnabled": true,
+  "listenerType": 1,
+  "urlGFWList": "",
   "allowLANConn": false,
-  "remoteDNS": null,
+  "remoteDNS": "",
   "subItem": [
     {
       "id": "",

@@ -1,0 +1,64 @@
+--------------------------------info[00:14:07]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[00:39:43]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[00:45:01]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[01:30:36]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[01:30:37]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[01:30:42]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[01:30:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   at System.Net.HttpListener.GetContext()
+   at v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[01:31:07]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[01:36:26]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[01:36:26]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[01:36:29]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[01:36:29]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   at System.Net.HttpListener.GetContext()
+   at v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[01:50:58]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[08:55:20]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[09:59:16]--------------------------------
+System.Exception: v2rayN start up
+
+ 

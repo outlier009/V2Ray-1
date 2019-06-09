@@ -1,0 +1,29 @@
+$ sudo date --set="2017-01-22 16:16:23"
+
+$ wget https://install.direct/go.sh
+
+$ sudo bash go.sh
+
+
+
+
+
+
+$ cat /proc/sys/kernel/random/uuid
+    生成随机UUID
+
+$ /usr/bin/v2ray/v2ray -test -config /etc/v2ray/config.json
+		test
+
+$ jq . config.json
+
+
+
+
+Knowledge Base:
+		使用 Tor 浏览器，就不要开启 sniffing (将 sniffing 下的 enabled 设成 false)，否则会导致 Tor 无法上网。
+
+			{浏览器} <--(socks)--> {V2Ray 客户端 inbound <-> V2Ray 客户端 outbound} <--(VMess)-->  {V2Ray 服务器 inbound <-> V2Ray 服务器 outbound} <--(Freedom)--> {目标网站}
+
+			Gui界面参数设置为10808，也正常，不一定1080
+			每次重启Gui会重置config.json
